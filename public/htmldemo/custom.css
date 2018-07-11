@@ -1,0 +1,174 @@
+body,
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.card-box, .card {
+    height: 100%;
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+
+.row-block {
+    margin-bottom: 20px;
+}
+
+
+.static-info .name {
+    font-size: 14px;
+}
+
+.head-text {
+    padding-left: 15px;
+    margin: 20px 0;
+}
+
+.static-info .value {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.static-info {
+    margin-bottom: 10px;
+}
+.card-header{
+    border-bottom: none;
+    color:#fff;
+}
+.card-header .fa{
+    font-size: 13px;
+    margin-right: 5px;
+}
+.card.yellow{
+    border:1px solid #ffc107;
+}
+.card.blue{
+    border:1px solid #17a2b8;
+
+}
+.card.green{
+    border:1px solid #28a745;
+}
+.card.red{
+    border:1px solid #dc3545;  
+}
+.label {
+    text-shadow: none!important;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 3px 6px;
+    color: #fff;
+}
+
+.label-success {
+    background-color: #36c6d3;
+}
+
+
+
+.floating-form-block .form-group {
+    position: relative;
+    margin: 0 0 35px;
+    padding-top: 20px;
+}
+
+.floating-form-block .form-control {
+    background: 0 0;
+    border: 0;
+    border-bottom: 1px solid #c2cad8;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    color: #555;
+    box-shadow: none;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 14px;
+}
+
+
+/* You can use "input ~ label" selector too */
+
+.floating-form-block {
+    padding: 25px;
+}
+
+.floating-form-block .form-control + label {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    transition: transform 200ms ease;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #888;
+    /* You have to use this to make it clickable through*/
+    pointer-events: none;
+}
+
+.floating-form-block .form-control:focus + label,
+.floating-form-block .form-control + label.freeze  {
+    font-size: 0.7em;
+    font-weight: 400;
+    /* Use "Translate" function instead of classic positioning for better performance */
+    transform: translateY(-2.6em);
+}
+
+.floating-form-block form {
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.floating-form-block .form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #36c6d3;
+    box-shadow: none!important;
+}
+
+.floating-form-block .custom-form{
+    margin: 0;
+    padding:18px 5px;
+}
+
+.navbar{
+    padding: 12px 25px;
+}
+textarea{
+    resize: none;
+    height: 100px;
+    border-radius: none;
+}
+.form-check {
+
+    display: inline-block;
+    margin-right: 40px;
+}
+.form-check-label {
+
+    font-size: 14px;
+    color: #444;
+}
+.floating-form-block  label{
+    display: block;
+    font-size: 14px;
+    color: #888;
+}
+.form-header{
+    color: #0069d9;
+    border: 1px solid #eee;
+}
