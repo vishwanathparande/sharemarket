@@ -15,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'first_name', 'last_name', 'email', 'password', 'mobile', 'center_assigned_to', 'provider', 'provider_id'
+        'first_name', 'last_name', 'email', 'password', 'mobile',
     ];
 
     /**
@@ -27,5 +27,5 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
     
-    protected $table = 'students';
+    protected $table = 'users';
 }

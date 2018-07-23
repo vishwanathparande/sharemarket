@@ -1,4 +1,4 @@
-@extends('layouts.appBK')
+@extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -10,15 +10,6 @@
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
-                        
-                            <div class="form-group row signUpOptions">
-                                <label for="" class="col-md-4 col-form-label text-md-right">Sign In with
-                                </label>
-                                <div class="col-md-6 ">
-                                    <a href="{{ url('/auth/google') }}" class="btn btn-google"><i class="fa fa-google"></i> Google</a>
-                                    <a href="{{ url('/auth/facebook') }}" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
-                                </div>
-                            </div>
                         
                         <div class="form-group row">
                             <label for="email" class="col-sm-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
@@ -48,7 +39,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <!--<div class="form-group row">
                             <div class="col-md-6 offset-md-4">
                                 <div class="checkbox">
                                     <label>
@@ -56,7 +47,7 @@
                                     </label>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
